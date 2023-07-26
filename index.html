@@ -38,7 +38,7 @@
 
 <body class=" text-[lato-font]">
     <!-- Navbar -->
-    <nav class="container mx-auto  bg-transparent  lg:my-14 lg:bg-common-color lg:px-6 lg:py-4 lg:rounded-[600px]">
+    <nav class="md:container md:mx-auto bg-transparent  lg:my-14 lg:bg-common-color lg:px-6 lg:py-4 lg:rounded-[600px]">
         <div class="navbar ">
             <div class="navbar-start">
 
@@ -107,9 +107,9 @@
         </div>
     </nav>
     <!-- banner section -->
-    <section class="container mx-auto ">
+    <section class="md:container md:mx-auto ">
 
-        <div class="carousel w-full h-auto">
+        <div class="carousel w-full h-auto relative">
             <!-- Slide-1 -->
             <div id="slide1" class="carousel-item relative w-full">
                 <div class="hero min-h-screen rounded-lg" style="background-image: url('./images/banner1.png');">
@@ -191,35 +191,34 @@
                 </div>
             </div>
         </div>
-
-
-    </section>
-
-    <section class="w-4/5 h-40  mx-auto rounded-2xl -mt-20 bg-white shadow-black absolute ml-32 hidden lg:block">
-        <div class="flex justify-around content-center ">
-
-            <div>
-                <img src="./images/fruit1.png" alt="">
-                <p class="text-center text-xl font-normal text-[#121212cc]">Grapes</p>
+        
+        <section class="w-3/4 h-40  mx-auto rounded-2xl -mt-24 bg-white shadow-black absolute ml-32 hidden lg:block">
+            <div class="flex justify-around content-center ">
+    
+                <div>
+                    <img src="./images/fruit1.png" alt="">
+                    <p class="text-center text-xl font-normal text-[#121212cc]">Grapes</p>
+                </div>
+    
+                <div>
+                    <img src="./images/fruit2.png" alt="">
+                    <p class="text-center  text-xl font-normal text-[#121212cc]">Orange</p>
+                </div>
+                <div>
+                    <img src="./images/fruit3.png" alt="">
+                    <p class="text-center text-xl font-normal text-[#121212cc]">Mango</p>
+                </div>
+                <div>
+                    <img src="./images/fruit4.png" alt="">
+                    <p class="text-center text-xl font-normal text-[#121212cc]">Strawberry</p>
+                </div>
+                <div>
+                    <img src="./images/fruit5.png" alt="">
+                    <p class="text-center text-xl font-normal text-[#121212cc]">Pomegranate</p>
+                </div>
             </div>
+        </section>
 
-            <div>
-                <img src="./images/fruit2.png" alt="">
-                <p class="text-center  text-xl font-normal text-[#121212cc]">Orange</p>
-            </div>
-            <div>
-                <img src="./images/fruit3.png" alt="">
-                <p class="text-center text-xl font-normal text-[#121212cc]">Mango</p>
-            </div>
-            <div>
-                <img src="./images/fruit4.png" alt="">
-                <p class="text-center text-xl font-normal text-[#121212cc]">Strawberry</p>
-            </div>
-            <div>
-                <img src="./images/fruit5.png" alt="">
-                <p class="text-center text-xl font-normal text-[#121212cc]">Pomegranate</p>
-            </div>
-        </div>
     </section>
 
     <!-- Deal of the day section -->
@@ -676,8 +675,8 @@
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-3">
             <div class="space-y-2">
                 <div class="flex items-center gap-4">
-                    <div class=" border bg-[#1212121a] p-4 rounded-full">
-                        <img class="w-8 h-5" src="./group 1.svg" alt="">
+                    <div class=" border  bg-[#1212121a] p-4 rounded-full">
+                        <img class="w-10 h-6" src="./group 1.svg" alt="">
                     </div>
                     <div class="">
                         <h3 class="mb-3 text-2xl font-bold">Dedicated Team</h3>
@@ -688,7 +687,7 @@
                 </div>
                 <div class="flex items-center gap-6">
                     <div class="border bg-[#1212121a] p-4 rounded-full">
-                        <img class="w-8 h-5" src="./love 1.svg" alt="">
+                        <img class="w-10 h-6" src="./love 1.svg" alt="">
                     </div>
                     <div>
                         <h3 class="mb-5 text-2xl font-bold">Fresh is Best</h3>
@@ -699,7 +698,7 @@
                 </div>
                 <div class="flex items-center gap-6">
                     <div class="border bg-[#1212121a] p-4 rounded-full">
-                        <img class="w-8 h-5" src="./gift-box 1.svg" alt="">
+                        <img class="w-10 h-6" src="./gift-box 1.svg" alt="">
                     </div>
                     <div>
                         <h3 class="mb-5 text-2xl font-bold">Gift Certificates</h3>
@@ -712,12 +711,12 @@
             </div>
 
             <div class="border">
-                <img class="w-full h-full" src="./images/whychoose1.png" alt="">
+                <img class="w-full h-auto" src="./images/whychoose1.png" alt="">
             </div>
 
 
-            <div class="space-y-4">
-                <div class="flex items-center flex-row-reverse lg:flex-row gap-4">
+            <div class="space-y-4 ">
+                <div class="flex items-center mx-0 flex-row-reverse lg:flex-row gap-4 ">
 
                     <div class="flex flex-col items-start lg:items-end">
                         <h3 class="mb-5 text-2xl font-bold">Integrated Supplier</h3>
@@ -726,8 +725,8 @@
                             are there for
                             you to pick the most amazing and fresh fruits.</p>
                     </div>
-                    <div class="border bg-[#1212121a] p-4 rounded-full">
-                        <img class="w-8 h-5" src="./fruit 1.svg" alt="">
+                    <div class="border flex items-start bg-[#1212121a] p-4 rounded-full">
+                        <img class="w-10 h-6" src="./fruit 1.svg" alt="">
                     </div>
                 </div>
                 <div class="flex items-center flex-row-reverse lg:flex-row gap-4">
@@ -740,7 +739,7 @@
                             you to pick the most amazing and fresh fruits.</p>
                     </div>
                     <div class="border bg-[#1212121a] p-4 rounded-full">
-                        <img class="w-8 h-5" src="./ice-cream 1.svg" alt="">
+                        <img class="w-10 h-6" src="./ice-cream 1.svg" alt="">
                     </div>
                 </div>
                 <div class="flex items-center flex-row-reverse lg:flex-row gap-4">
@@ -753,7 +752,7 @@
                             you to pick the most amazing and fresh fruits.</p>
                     </div>
                     <div class="border bg-[#1212121a] p-4 rounded-full">
-                        <img class="w-8 h-5" src="./like 1.svg" alt="">
+                        <img class="w-10 h-6" src="./like 1.svg" alt="">
                     </div>
                 </div>
 
